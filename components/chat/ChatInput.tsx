@@ -24,8 +24,9 @@ export default function ChatInput() {
               onChange={(e) => setPrompt(e.target.value)}
               placeholder="Ask about your analytics (e.g. 'Show today’s active users')"
               aria-label="Analytics question"
+              className="h-12"
             />
-            <Button type="submit">Send</Button>
+            <Button type="submit" className="text-md h-12">Send</Button>
           </form>
         </CardContent>
       </Card>
